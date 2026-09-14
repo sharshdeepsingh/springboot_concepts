@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.sharshdeep</groupId>
-    <artifactId>lect-03-maven-lifecycle</artifactId>
+    <artifactId>lecture-02-maven-life-cycle</artifactId>
     <version>1.0-SNAPSHOT-${author.name}</version>
 
     <properties>
