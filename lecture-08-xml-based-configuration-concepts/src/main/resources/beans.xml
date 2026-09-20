@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="paymentService" class="org.sharshdeep.PaymentService">-->
+<!--        <constructor-arg index="0" name="type" value="UPI"/>-->
+<!--        <constructor-arg  index="1" name="retryCount" value="4"/>-->
+<!--    </bean>-->
+
+<!--&lt;!&ndash;    &lt;!&ndash; bean definitions here &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    <bean id="orderService"&ndash;&gt;-->
+<!--&lt;!&ndash;          class="org.sharshdeep.OrderService"&ndash;&gt;-->
+<!--&lt;!&ndash;          name="orderServiceBean,orderServiceBean2"&ndash;&gt;-->
+<!--&lt;!&ndash;    >&ndash;&gt;-->
+<!--&lt;!&ndash;        <constructor-arg ref="paymentService"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    </bean>&ndash;&gt;-->
+
+<!--    &lt;!&ndash; bean definitions here &ndash;&gt;-->
+<!--    <bean id="orderService"-->
+<!--          class="org.sharshdeep.OrderService"-->
+<!--    >-->
+<!--      <property name="paymentService" ref="paymentService"/>-->
+<!--    </bean>-->
+
+<!--<bean id="orderService2" class="org.sharshdeep.OrderService"/>-->
+
+    <bean id="upiPaymentService" class="org.sharshdeep.payment.UPIPaymentService"/>
+
+    <bean id="cardPaymentService" class="org.sharshdeep.payment.CardPaymentService"/>
+
+    <bean id="orderService" class="org.sharshdeep.OrderService">
+        <constructor-arg ref="cardPaymentService" />
+    </bean>
+
+</beans>
