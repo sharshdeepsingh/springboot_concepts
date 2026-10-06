@@ -12,14 +12,14 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 private Long id;
 
-    public Student(Long id, String subject, String email, int rollNo, int age, String name) {
-        this.id = id;
-        this.subject = subject;
-        this.email = email;
-        this.rollNo = rollNo;
-        this.age = age;
-        this.name = name;
-    }
+//    public Student(Long id, String subject, String email, int rollNo, int age, String name) {
+//        this.id = id;
+//        this.subject = subject;
+//        this.email = email;
+//        this.rollNo = rollNo;
+//        this.age = age;
+//        this.name = name;
+//    }
 
     public Long getId() {
         return id;
