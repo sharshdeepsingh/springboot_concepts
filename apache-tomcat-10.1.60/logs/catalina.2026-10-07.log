@@ -1,0 +1,42 @@
+07-Oct-2026 23:14:51.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.60
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 9 2026 22:35:59 UTC
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.60.0
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\harsh\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.11.10-hotspot
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.11+10-LTS
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60
+07-Oct-2026 23:14:51.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60
+07-Oct-2026 23:14:51.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\conf\logging.properties
+07-Oct-2026 23:14:51.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Oct-2026 23:14:51.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Oct-2026 23:14:51.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Oct-2026 23:14:51.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Oct-2026 23:14:51.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Oct-2026 23:14:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Oct-2026 23:14:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Oct-2026 23:14:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Oct-2026 23:14:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Oct-2026 23:14:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Oct-2026 23:14:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60
+07-Oct-2026 23:14:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60
+07-Oct-2026 23:14:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\temp
+07-Oct-2026 23:14:51.502 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\harsh\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.11.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\18\bin;C:\Program Files\PostgreSQL\18\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\PuTTY\;C:\Program Files\Apache\Maven\apache-maven-3.9.16\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\harsh\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\harsh\AppData\Local\Programs\Python\Python312\;C:\Users\harsh\AppData\Local\Programs\Python\Launcher\;C:\Users\harsh\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.11.10-hotspot\bin;C:\Users\harsh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1.2\bin;C:\Users\harsh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harsh\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\harsh\AppData\Roaming\npm;C:\Users\harsh\AppData\Local\Programs\Ollama;.]
+07-Oct-2026 23:14:51.718 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Oct-2026 23:14:51.814 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [636] milliseconds
+07-Oct-2026 23:14:51.856 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Oct-2026 23:14:51.856 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.60]
+07-Oct-2026 23:14:51.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\docs]
+07-Oct-2026 23:14:52.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\docs] has finished in [378] ms
+07-Oct-2026 23:14:52.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\examples]
+07-Oct-2026 23:14:52.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\examples] has finished in [387] ms
+07-Oct-2026 23:14:52.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\host-manager]
+07-Oct-2026 23:14:52.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\host-manager] has finished in [37] ms
+07-Oct-2026 23:14:52.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\manager]
+07-Oct-2026 23:14:52.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\manager] has finished in [33] ms
+07-Oct-2026 23:14:52.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\ROOT]
+07-Oct-2026 23:14:52.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Development\Springboot\Springboot_concepts\apache-tomcat-10.1.60\webapps\ROOT] has finished in [22] ms
+07-Oct-2026 23:14:52.732 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Oct-2026 23:14:52.757 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [942] milliseconds
