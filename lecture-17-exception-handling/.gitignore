@@ -3,6 +3,8 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# Ignore Apache Tomcat
+apache-tomcat-10.1.60/
 
 ### STS ###
 .apt_generated

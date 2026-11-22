@@ -1,10 +1,10 @@
-package com.saini.singh.harsheep.exceptionHandling;
+package com.sharshdeep;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExceptionHandlingApplicationTests {
+class Lecture11SpringbootCrudApplicationDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
